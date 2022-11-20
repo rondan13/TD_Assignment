@@ -39,7 +39,7 @@ public class BaseClass {
   public void beforeClass() {
 	  
 	  final String FILEPATH = System.getProperty("user.dir") + "/Utilites/configuration.properties";
-	  final String reportPath = System.getProperty("user.dir") + "/target";
+	  final String reportPath = System.getProperty("user.dir") + "/ExtentReports";
 	  FileReader utilReader = null;
 	  try {
 		  utilReader = new FileReader(FILEPATH);
