@@ -33,8 +33,8 @@ public class BaseClass {
 	protected ChromeOptions options;
 	protected DesiredCapabilities capabilities;
 	protected FirefoxOptions foptions;
-	public ExtentReports report;
-	public ExtentTest test;
+	protected ExtentReports report;
+	protected ExtentTest test;
   @BeforeClass
   public void beforeClass() {
 	  
